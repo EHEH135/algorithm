@@ -13,7 +13,7 @@ class solution {
 		// String[] user_id = {"frodo", "fradi", "crodo", "abc123", "frodoc"};		//TC #2
 		// String[] banned_id = {"*rodo", "*rodo", "******"};		//TC #2
 		String[] user_id = {"frodo", "fradi", "crodo", "abc123", "frodoc"};		//TC #3
-		String[] banned_id = {"fr*d*", "*rodo", "******", "******"};		//TC #3
+		String[] banned_id = {"fr*d*", "*rodo", "******", "******"};		//TC #3 
 
 
         // Solution output
