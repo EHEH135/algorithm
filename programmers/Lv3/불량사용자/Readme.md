@@ -1,7 +1,6 @@
 # 문제 설명
 
 ![image](https://github.com/user-attachments/assets/b3b37d2d-7049-4341-83c0-501071efdbb2)
-m/e8f11927-b70c-4524-9227-a3efac08e7aa/119a503c-45a0-45f1-bf28-e8ddfe8444c8/Untitled.png)
 
 ![image](https://github.com/user-attachments/assets/ed471cce-daca-49c9-98f9-babec3bf59b5)
 
