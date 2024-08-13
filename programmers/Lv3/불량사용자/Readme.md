@@ -1,8 +1,9 @@
 # 문제 설명
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/119a503c-45a0-45f1-bf28-e8ddfe8444c8/Untitled.png)
+![image](https://github.com/user-attachments/assets/b3b37d2d-7049-4341-83c0-501071efdbb2)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/c55b1850-bb64-4720-8d52-8970cba2dda5/Untitled.png)
+![image](https://github.com/user-attachments/assets/ed471cce-daca-49c9-98f9-babec3bf59b5)
+
 
 # 접근방법
 
@@ -12,7 +13,8 @@
 
 먼저 ‘불량 사용자’와 ‘응모자 아이디’가 맞는지 확인하기위해 match라는 boolean타입의 함수를 만들어 주어 확인을 진행할 수 있도록 하였고
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/119af414-c97a-4198-afd7-d5d2620cccad/Untitled.png)
+![image](https://github.com/user-attachments/assets/9c37ace9-83aa-467e-9ac5-10b817c71685)
+
 
 전체 탐색을 위해 DFS와 BackTracking을 사용했습니다. set에 ID가 없으며 match를 통과 했으면 set에 추가를 하고 재귀를 시작합니다. 이후 재귀가 끝나면 set에 ID가 남지 않도록 remove를 해줍니다.
 remove를 하는이유는 아래와 같습니다.
@@ -24,7 +26,8 @@ remove를 하는이유는 아래와 같습니다.
 
 마지막으로 depth와 전체 사용자 수가 같다면 set에 있는 값을 result에 저장을 하고 재귀를 멈춥니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/e8f11927-b70c-4524-9227-a3efac08e7aa/fa8d07b0-c335-41b3-82a8-ce6ddadc00ba/Untitled.png)
+![image](https://github.com/user-attachments/assets/0aa9b793-d975-4548-93aa-2500a2b2638f)
+
 
 # 프로그래머스 제출 코드
 
