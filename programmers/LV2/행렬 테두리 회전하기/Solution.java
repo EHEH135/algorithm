@@ -3,15 +3,15 @@ class Solution {
     public static void main(String[] args){
         Solution my = new Solution();
         // TCs
-		// int rows = 6;		//TC #1
-		// int columns = 6;		//TC #1
-		// int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};		//TC #1
+		int rows = 6;		//TC #1
+		int columns = 6;		//TC #1
+		int[][] queries = {{2,2,5,4},{3,3,6,6},{5,1,6,3}};		//TC #1
 		// int rows = 3;		//TC #2
 		// int columns = 3;		//TC #2
 		// int[][] queries = {{1,1,2,2},{1,2,2,3},{2,1,3,2},{2,2,3,3}};		//TC #2
-		int rows = 100;		//TC #3
-		int columns = 97;		//TC #3
-		int[][] queries = {{1,1,100,97}};		//TC #3
+		// int rows = 100;		//TC #3
+		// int columns = 97;		//TC #3
+		// int[][] queries = {{1,1,100,97}};		//TC #3
 
 
         // Solution output
@@ -61,6 +61,9 @@ class Solution {
                     current[0] += direction[flag][0];
                     current[1] += direction[flag][1];
                     int nextTmp = table[current[0]][current[1]];
+                    if(minValue > nextTmp){
+                        minValue = nextTmp;
+                    }
                     table[current[0]][current[1]] = tmp;
                     tmp = nextTmp;
                     if(current[0] == p2[0]){
@@ -71,6 +74,9 @@ class Solution {
                     current[0] += direction[flag][0];
                     current[1] += direction[flag][1];
                     int nextTmp = table[current[0]][current[1]];
+                    if(minValue > nextTmp){
+                        minValue = nextTmp;
+                    }
                     table[current[0]][current[1]] = tmp;
                     tmp = nextTmp;
                     if(current[1] == p1[1]){
@@ -81,6 +87,9 @@ class Solution {
                     current[0] += direction[flag][0];
                     current[1] += direction[flag][1];
                     int nextTmp = table[current[0]][current[1]];
+                    if(minValue > nextTmp){
+                        minValue = nextTmp;
+                    }
                     table[current[0]][current[1]] = tmp;
                     tmp = nextTmp;
                     if(current[0] == p1[0]){
@@ -94,4 +103,5 @@ class Solution {
 
         return answer;
     }
+
 }
